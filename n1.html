@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-1.8.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("p").show();
+            })
+        })
+        
+        $(document).ready(function(){
+            $("#b2").click(function(){
+                $("p").hide();
+            })
+        })
+        $(document).ready(function(){
+            $("#b3").click(function(){
+                $("p").toggle();
+            })
+        })
+        $(document).ready(function(){
+            $("#b3").click(function(){
+                $("p").slideDown(2000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="b1">show</button>
+    <button id="b2">HIde</button>
+    <button id="b3">toggle</button>
+   <div> <h1>intro</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo optio cumque nostrum ipsum voluptates facilis consequatur. Delectus, quod nulla eaque veritatis blanditiis quos autem beatae, deleniti officiis a, ea molestias facilis voluptates.</p>
+    <h1>class1</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo optio cumque nostrum ipsum voluptates facilis consequatur. Delectus, quod nulla eaque veritatis blanditiis quos autem beatae, deleniti officiis a, ea molestias facilis voluptates.</p>
+    <h1>class2</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo optio cumque nostrum ipsum voluptates facilis consequatur. Delectus, quod nulla eaque veritatis blanditiis quos autem beatae, deleniti officiis a, ea molestias facilis voluptates.</p>
+</div>
+
+
+</body>
+</html>
